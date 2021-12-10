@@ -15,7 +15,17 @@ typedef enum
     RG_AUDIO_VOL_7 = 7,
     RG_AUDIO_VOL_8 = 8,
     RG_AUDIO_VOL_9 = 9,
-    RG_AUDIO_VOL_MAX = 10,
+    RG_AUDIO_VOL_10 = 10,
+    RG_AUDIO_VOL_11 = 11,
+    RG_AUDIO_VOL_12 = 12,
+    RG_AUDIO_VOL_13 = 12,
+    RG_AUDIO_VOL_14 = 14,
+    RG_AUDIO_VOL_15 = 15,
+    RG_AUDIO_VOL_16 = 16,
+    RG_AUDIO_VOL_17 = 17,
+    RG_AUDIO_VOL_18 = 18,
+    RG_AUDIO_VOL_19 = 19,
+    RG_AUDIO_VOL_MAX = 20,
     RG_AUDIO_VOL_DEFAULT = RG_AUDIO_VOL_4,
 } rg_volume_t;
 

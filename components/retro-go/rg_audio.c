@@ -11,7 +11,7 @@ static int audioSampleRate = 0;
 static int audioFilter = 0;
 static bool audioMuted = false;
 static int volumeLevel = RG_AUDIO_VOL_DEFAULT;
-static int volumeMap[] = {0, 7, 15, 28, 39, 47, 56, 65, 74, 88, 100};
+static int volumeMap[] = {0, 1, 2, 3, 4, 5, 6, 7, 15, 28, 39, 47, 56, 65, 74, 88, 100};
 
 static const char *SETTING_OUTPUT = "AudioSink";
 static const char *SETTING_VOLUME = "Volume";

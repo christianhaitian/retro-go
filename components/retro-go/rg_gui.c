@@ -697,7 +697,7 @@ static dialog_return_t volume_update_cb(dialog_option_t *option, dialog_event_t 
     if (level != old_level)
         rg_audio_set_volume(level);
 
-    sprintf(option->value, "%d%%", level * RG_AUDIO_VOL_MAX);
+    sprintf(option->value, "%d%%", level * 5);
 
     return RG_DIALOG_IGNORE;
 }
